@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="758ec35f-0e68-4687-8fa8-b469e1aa853e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/storybook/.storybook/addons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/storybook/.storybook/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/storybook/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin-module" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin-module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/apps/admin-module/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin-module/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin-module/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin-module/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/apps/admin-module/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin-module/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/apps/admin-module/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin-module/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/src/CInputText/CInputText.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/src/CInputText/CInputText.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +21,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/apps/admin-module" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
     <dismissed value="$PROJECT_DIR$/packages/apps/admin-module/package.json" />
+    <dismissed value="$PROJECT_DIR$/packages/storybook/package.json" />
   </component>
   <component name="ProjectId" id="1TYbMcON7DYSoaFQubTx9XwwZv5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,7 +80,7 @@
       <updated>1573639928112</updated>
       <workItem from="1573639929232" duration="20000" />
       <workItem from="1573639960343" duration="4000" />
-      <workItem from="1573640011069" duration="3737000" />
+      <workItem from="1573640011069" duration="5695000" />
     </task>
     <servers />
   </component>

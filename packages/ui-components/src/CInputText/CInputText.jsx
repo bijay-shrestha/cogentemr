@@ -7,7 +7,7 @@ const CInputText = () => (
 			<span role="img" aria-label="Yarn Logo">
 				🐱
 			</span>{' '}
-            This is CInputText component
+            This is CInputText
         </h3>
     </div>
 );
