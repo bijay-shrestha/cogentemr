@@ -1,0 +1,11 @@
+.c-input-text {
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 3vmin;
+    background: #164A61;
+}
+
+.c-input-text h3 {
+    font-size: calc(24px + 1vmin);
+    margin: 0;
+}

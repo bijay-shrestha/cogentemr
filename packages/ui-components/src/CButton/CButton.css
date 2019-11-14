@@ -1,0 +1,11 @@
+.c-button {
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 3vmin;
+    background: #164A61;
+}
+
+.c-button h3 {
+    font-size: calc(24px + 1vmin);
+    margin: 0;
+}
