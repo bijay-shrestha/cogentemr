@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint ../admin/src/**/*.js --max-warnings=0 --format=codeframe",
-    "predeploy": "yarn run build"
+    "predeploy": "yarn run build",
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
