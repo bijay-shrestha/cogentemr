@@ -1,0 +1,26 @@
+fb83dc4c3f719fc65455d8d05e515d78
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./CInputText.css");
+
+var CInputText = function CInputText() {
+  return _react["default"].createElement("div", {
+    className: "c-input-text"
+  }, _react["default"].createElement("h3", null, _react["default"].createElement("span", {
+    role: "img",
+    "aria-label": "Yarn Logo"
+  }, "\uD83D\uDC31"), ' ', "This is CInputText"));
+};
+
+var _default = CInputText;
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNJbnB1dFRleHQuanN4Il0sIm5hbWVzIjpbIkNJbnB1dFRleHQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBOztBQUNBOztBQUVBLElBQU1BLFVBQVUsR0FBRyxTQUFiQSxVQUFhO0FBQUEsU0FDZjtBQUFLLElBQUEsU0FBUyxFQUFDO0FBQWYsS0FDSSw0Q0FDTDtBQUFNLElBQUEsSUFBSSxFQUFDLEtBQVg7QUFBaUIsa0JBQVc7QUFBNUIsb0JBREssRUFHRyxHQUhILHVCQURKLENBRGU7QUFBQSxDQUFuQjs7ZUFXZUEsVSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgJy4vQ0lucHV0VGV4dC5jc3MnO1xuXG5jb25zdCBDSW5wdXRUZXh0ID0gKCkgPT4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiYy1pbnB1dC10ZXh0XCI+XG4gICAgICAgIDxoMz5cblx0XHRcdDxzcGFuIHJvbGU9XCJpbWdcIiBhcmlhLWxhYmVsPVwiWWFybiBMb2dvXCI+XG5cdFx0XHRcdPCfkLFcblx0XHRcdDwvc3Bhbj57JyAnfVxuICAgICAgICAgICAgVGhpcyBpcyBDSW5wdXRUZXh0XG4gICAgICAgIDwvaDM+XG4gICAgPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBDSW5wdXRUZXh0OyJdfQ==

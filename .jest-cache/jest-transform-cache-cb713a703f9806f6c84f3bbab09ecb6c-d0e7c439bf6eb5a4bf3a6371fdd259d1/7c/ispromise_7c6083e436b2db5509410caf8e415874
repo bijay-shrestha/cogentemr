@@ -1,0 +1,4 @@
+b6a73055ea0cdbf04ffdb50043dd1ae5
+module.exports = function isPromise(maybePromise) {
+  return maybePromise instanceof Promise;
+};

@@ -1,6 +1,6 @@
 {
   "name": "@cogent/pharmacy",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@react-workspaces/react-scripts": "3.0.1-alpha-07",
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watch --verbose --runInBand --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

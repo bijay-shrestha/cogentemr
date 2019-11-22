@@ -1,0 +1,26 @@
+bb054db6a08fa48097d1cedc88d6a93b
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./CButton.css");
+
+var CButton = function CButton() {
+  return _react["default"].createElement("div", {
+    className: "c-button"
+  }, _react["default"].createElement("h3", null, _react["default"].createElement("span", {
+    role: "img",
+    "aria-label": "React Logo"
+  }, "\u269B\uFE0F"), "This is CButton"));
+};
+
+var _default = CButton;
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNCdXR0b24uanN4Il0sIm5hbWVzIjpbIkNCdXR0b24iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBOztBQUNBOztBQUVBLElBQU1BLE9BQU8sR0FBRyxTQUFWQSxPQUFVO0FBQUEsU0FDWjtBQUFLLElBQUEsU0FBUyxFQUFDO0FBQWYsS0FDSSw0Q0FDTDtBQUFNLElBQUEsSUFBSSxFQUFDLEtBQVg7QUFBaUIsa0JBQVc7QUFBNUIsb0JBREssb0JBREosQ0FEWTtBQUFBLENBQWhCOztlQVdlQSxPIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCAnLi9DQnV0dG9uLmNzcyc7XG5cbmNvbnN0IENCdXR0b24gPSAoKSA9PiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjLWJ1dHRvblwiPlxuICAgICAgICA8aDM+XG5cdFx0XHQ8c3BhbiByb2xlPVwiaW1nXCIgYXJpYS1sYWJlbD1cIlJlYWN0IExvZ29cIj5cblx0XHRcdFx04pqb77iPXG5cdFx0XHQ8L3NwYW4+XG4gICAgICAgICAgICBUaGlzIGlzIENCdXR0b25cbiAgICAgICAgPC9oMz5cbiAgICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IENCdXR0b247Il19

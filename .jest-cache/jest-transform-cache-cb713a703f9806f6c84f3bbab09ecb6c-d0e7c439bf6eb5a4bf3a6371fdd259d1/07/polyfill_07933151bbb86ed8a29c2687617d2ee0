@@ -1,0 +1,18 @@
+afe575a3a4c2653bbad58bcb3bf79c54
+'use strict';
+
+var implementation = require('./implementation');
+
+module.exports = function getPolyfill() {
+  if (!String.prototype.trimRight) {
+    return implementation;
+  }
+
+  var zeroWidthSpace = '\u200b';
+
+  if (zeroWidthSpace.trimRight() !== zeroWidthSpace) {
+    return implementation;
+  }
+
+  return String.prototype.trimRight;
+};

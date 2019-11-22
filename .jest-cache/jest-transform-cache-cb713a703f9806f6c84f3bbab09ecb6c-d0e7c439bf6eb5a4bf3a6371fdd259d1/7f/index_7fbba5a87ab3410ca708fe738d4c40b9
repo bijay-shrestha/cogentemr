@@ -1,0 +1,45 @@
+504d9971e1186e846b7033159be47043
+/* istanbul ignore next */
+"use strict";
+
+var cov_11k38nc85z = function () {
+  var path = "/Users/bijayshrestha/Dropbox/Workspaces/cogentemr/packages/ui-components/src/CButton/index.js";
+  var hash = "233ff7936279ab3d30a39ab56dea2e0210db6a3f";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/bijayshrestha/Dropbox/Workspaces/cogentemr/packages/ui-components/src/CButton/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "233ff7936279ab3d30a39ab56dea2e0210db6a3f"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _CButton["default"];
+  }
+});
+
+var
+/* istanbul ignore next */
+_CButton = _interopRequireDefault(require("./CButton"));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFBO0FBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQge2RlZmF1bHR9IGZyb20gJy4vQ0J1dHRvbic7Il19

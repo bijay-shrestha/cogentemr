@@ -1,0 +1,13 @@
+74b9621838e61a9d77335a03a5bd371e
+'use strict';
+
+var GetIntrinsic = require('../GetIntrinsic');
+
+var originalSetProto = GetIntrinsic('%Object.setPrototypeOf%', true);
+var $ArrayProto = GetIntrinsic('%Array.prototype%');
+module.exports = originalSetProto || ( // eslint-disable-next-line no-proto, no-negated-condition
+[].__proto__ !== $ArrayProto ? null : function (O, proto) {
+  O.__proto__ = proto; // eslint-disable-line no-proto
+
+  return O;
+});

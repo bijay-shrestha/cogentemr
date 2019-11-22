@@ -1,0 +1,52 @@
+116db26922256250397b83303b0594c2
+'use strict'; // Do this as the first thing so that any code reading it knows the right env.
+
+process.env.BABEL_ENV = 'test';
+process.env.NODE_ENV = 'test';
+process.env.PUBLIC_URL = ''; // Makes the script crash on unhandled rejections instead of silently
+// ignoring them. In the future, promise rejections that are not handled will
+// terminate the Node.js process with a non-zero exit code.
+
+process.on('unhandledRejection', function (err) {
+  throw err;
+}); // Ensure environment variables are read.
+
+require('../config/env');
+
+var jest = require('jest');
+
+var execSync = require('child_process').execSync;
+
+var argv = process.argv.slice(2);
+
+function isInGitRepository() {
+  try {
+    execSync('git rev-parse --is-inside-work-tree', {
+      stdio: 'ignore'
+    });
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function isInMercurialRepository() {
+  try {
+    execSync('hg --cwd . root', {
+      stdio: 'ignore'
+    });
+    return true;
+  } catch (e) {
+    return false;
+  }
+} // Watch unless on CI or explicitly running all tests
+
+
+if (!process.env.CI && argv.indexOf('--watchAll') === -1) {
+  // https://github.com/facebook/create-react-app/issues/5210
+  var hasSourceControl = isInGitRepository() || isInMercurialRepository();
+  argv.push(hasSourceControl ? '--watch' : '--watchAll');
+}
+
+jest.run(argv);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QuanMiXSwibmFtZXMiOlsicHJvY2VzcyIsImVudiIsIkJBQkVMX0VOViIsIk5PREVfRU5WIiwiUFVCTElDX1VSTCIsIm9uIiwiZXJyIiwicmVxdWlyZSIsImplc3QiLCJleGVjU3luYyIsImFyZ3YiLCJzbGljZSIsImlzSW5HaXRSZXBvc2l0b3J5Iiwic3RkaW8iLCJlIiwiaXNJbk1lcmN1cmlhbFJlcG9zaXRvcnkiLCJDSSIsImluZGV4T2YiLCJoYXNTb3VyY2VDb250cm9sIiwicHVzaCIsInJ1biJdLCJtYXBwaW5ncyI6IkFBQUEsYSxDQUNBOztBQUNBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUMsU0FBWixHQUF3QixNQUF4QjtBQUNBRixPQUFPLENBQUNDLEdBQVIsQ0FBWUUsUUFBWixHQUF1QixNQUF2QjtBQUNBSCxPQUFPLENBQUNDLEdBQVIsQ0FBWUcsVUFBWixHQUF5QixFQUF6QixDLENBRUE7QUFDQTtBQUNBOztBQUNBSixPQUFPLENBQUNLLEVBQVIsQ0FBVyxvQkFBWCxFQUFpQyxVQUFBQyxHQUFHLEVBQUk7QUFDdEMsUUFBTUEsR0FBTjtBQUNELENBRkQsRSxDQUlBOztBQUNBQyxPQUFPLENBQUMsZUFBRCxDQUFQOztBQUdBLElBQU1DLElBQUksR0FBR0QsT0FBTyxDQUFDLE1BQUQsQ0FBcEI7O0FBQ0EsSUFBTUUsUUFBUSxHQUFHRixPQUFPLENBQUMsZUFBRCxDQUFQLENBQXlCRSxRQUExQzs7QUFDQSxJQUFJQyxJQUFJLEdBQUdWLE9BQU8sQ0FBQ1UsSUFBUixDQUFhQyxLQUFiLENBQW1CLENBQW5CLENBQVg7O0FBRUEsU0FBU0MsaUJBQVQsR0FBNkI7QUFDM0IsTUFBSTtBQUNGSCxJQUFBQSxRQUFRLENBQUMscUNBQUQsRUFBd0M7QUFBRUksTUFBQUEsS0FBSyxFQUFFO0FBQVQsS0FBeEMsQ0FBUjtBQUNBLFdBQU8sSUFBUDtBQUNELEdBSEQsQ0FHRSxPQUFPQyxDQUFQLEVBQVU7QUFDVixXQUFPLEtBQVA7QUFDRDtBQUNGOztBQUVELFNBQVNDLHVCQUFULEdBQW1DO0FBQ2pDLE1BQUk7QUFDRk4sSUFBQUEsUUFBUSxDQUFDLGlCQUFELEVBQW9CO0FBQUVJLE1BQUFBLEtBQUssRUFBRTtBQUFULEtBQXBCLENBQVI7QUFDQSxXQUFPLElBQVA7QUFDRCxHQUhELENBR0UsT0FBT0MsQ0FBUCxFQUFVO0FBQ1YsV0FBTyxLQUFQO0FBQ0Q7QUFDRixDLENBRUQ7OztBQUNBLElBQ0UsQ0FBQ2QsT0FBTyxDQUFDQyxHQUFSLENBQVllLEVBQWIsSUFDQU4sSUFBSSxDQUFDTyxPQUFMLENBQWEsWUFBYixNQUErQixDQUFDLENBRmxDLEVBR0U7QUFDQTtBQUNBLE1BQU1DLGdCQUFnQixHQUFHTixpQkFBaUIsTUFBTUcsdUJBQXVCLEVBQXZFO0FBQ0FMLEVBQUFBLElBQUksQ0FBQ1MsSUFBTCxDQUFVRCxnQkFBZ0IsR0FBRyxTQUFILEdBQWUsWUFBekM7QUFDRDs7QUFHRFYsSUFBSSxDQUFDWSxHQUFMLENBQVNWLElBQVQiLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCc7XG4vLyBEbyB0aGlzIGFzIHRoZSBmaXJzdCB0aGluZyBzbyB0aGF0IGFueSBjb2RlIHJlYWRpbmcgaXQga25vd3MgdGhlIHJpZ2h0IGVudi5cbnByb2Nlc3MuZW52LkJBQkVMX0VOViA9ICd0ZXN0JztcbnByb2Nlc3MuZW52Lk5PREVfRU5WID0gJ3Rlc3QnO1xucHJvY2Vzcy5lbnYuUFVCTElDX1VSTCA9ICcnO1xuXG4vLyBNYWtlcyB0aGUgc2NyaXB0IGNyYXNoIG9uIHVuaGFuZGxlZCByZWplY3Rpb25zIGluc3RlYWQgb2Ygc2lsZW50bHlcbi8vIGlnbm9yaW5nIHRoZW0uIEluIHRoZSBmdXR1cmUsIHByb21pc2UgcmVqZWN0aW9ucyB0aGF0IGFyZSBub3QgaGFuZGxlZCB3aWxsXG4vLyB0ZXJtaW5hdGUgdGhlIE5vZGUuanMgcHJvY2VzcyB3aXRoIGEgbm9uLXplcm8gZXhpdCBjb2RlLlxucHJvY2Vzcy5vbigndW5oYW5kbGVkUmVqZWN0aW9uJywgZXJyID0+IHtcbiAgdGhyb3cgZXJyO1xufSk7XG5cbi8vIEVuc3VyZSBlbnZpcm9ubWVudCB2YXJpYWJsZXMgYXJlIHJlYWQuXG5yZXF1aXJlKCcuLi9jb25maWcvZW52Jyk7XG5cblxuY29uc3QgamVzdCA9IHJlcXVpcmUoJ2plc3QnKTtcbmNvbnN0IGV4ZWNTeW5jID0gcmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLmV4ZWNTeW5jO1xubGV0IGFyZ3YgPSBwcm9jZXNzLmFyZ3Yuc2xpY2UoMik7XG5cbmZ1bmN0aW9uIGlzSW5HaXRSZXBvc2l0b3J5KCkge1xuICB0cnkge1xuICAgIGV4ZWNTeW5jKCdnaXQgcmV2LXBhcnNlIC0taXMtaW5zaWRlLXdvcmstdHJlZScsIHsgc3RkaW86ICdpZ25vcmUnIH0pO1xuICAgIHJldHVybiB0cnVlO1xuICB9IGNhdGNoIChlKSB7XG4gICAgcmV0dXJuIGZhbHNlO1xuICB9XG59XG5cbmZ1bmN0aW9uIGlzSW5NZXJjdXJpYWxSZXBvc2l0b3J5KCkge1xuICB0cnkge1xuICAgIGV4ZWNTeW5jKCdoZyAtLWN3ZCAuIHJvb3QnLCB7IHN0ZGlvOiAnaWdub3JlJyB9KTtcbiAgICByZXR1cm4gdHJ1ZTtcbiAgfSBjYXRjaCAoZSkge1xuICAgIHJldHVybiBmYWxzZTtcbiAgfVxufVxuXG4vLyBXYXRjaCB1bmxlc3Mgb24gQ0kgb3IgZXhwbGljaXRseSBydW5uaW5nIGFsbCB0ZXN0c1xuaWYgKFxuICAhcHJvY2Vzcy5lbnYuQ0kgJiZcbiAgYXJndi5pbmRleE9mKCctLXdhdGNoQWxsJykgPT09IC0xXG4pIHtcbiAgLy8gaHR0cHM6Ly9naXRodWIuY29tL2ZhY2Vib29rL2NyZWF0ZS1yZWFjdC1hcHAvaXNzdWVzLzUyMTBcbiAgY29uc3QgaGFzU291cmNlQ29udHJvbCA9IGlzSW5HaXRSZXBvc2l0b3J5KCkgfHwgaXNJbk1lcmN1cmlhbFJlcG9zaXRvcnkoKTtcbiAgYXJndi5wdXNoKGhhc1NvdXJjZUNvbnRyb2wgPyAnLS13YXRjaCcgOiAnLS13YXRjaEFsbCcpO1xufVxuXG5cbmplc3QucnVuKGFyZ3YpO1xuIl19

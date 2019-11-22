@@ -1,0 +1,81 @@
+1096410cb10c7faad8cbc9324db11367
+"use strict";
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits"));
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _ReactLogo = _interopRequireDefault(require("./ReactLogo.svg"));
+
+var _YarnCat = _interopRequireDefault(require("./YarnCat.svg"));
+
+require("./App.css");
+
+var _uiComponents = require("@cogentemr/ui-components");
+
+var App =
+/*#__PURE__*/
+function (_Component) {
+  (0, _inherits2["default"])(App, _Component);
+
+  function App() {
+    (0, _classCallCheck2["default"])(this, App);
+    return (0, _possibleConstructorReturn2["default"])(this, (0, _getPrototypeOf2["default"])(App).apply(this, arguments));
+  }
+
+  (0, _createClass2["default"])(App, [{
+    key: "render",
+    value: function render() {
+      return _react["default"].createElement("div", {
+        className: "App"
+      }, _react["default"].createElement("header", {
+        className: "App-header"
+      }, _react["default"].createElement("div", null, _react["default"].createElement("img", {
+        src: _ReactLogo["default"],
+        className: "React-logo",
+        alt: "React Logo"
+      }), _react["default"].createElement("img", {
+        src: _YarnCat["default"],
+        className: "Yarn-cat",
+        alt: "Yarn Workspaces Cat"
+      })), _react["default"].createElement("h1", null, _react["default"].createElement("a", {
+        className: "App-link",
+        href: "https://github.com/bijay-shrestha/cogentemr",
+        target: "_blank",
+        rel: "noopener noreferrer"
+      }, _react["default"].createElement("strong", null, "CogentEMR"), " @ Github")), _react["default"].createElement("h2", null, "Hot Reload Your Workspaces"), _react["default"].createElement("p", {
+        className: "body"
+      }, _react["default"].createElement("code", {
+        className: "file"
+      }, "packages/apps/admin-module/src/App.js"), _react["default"].createElement("code", {
+        className: "file"
+      }, "packages/ui-components/src/CButton/CButton.js"), _react["default"].createElement("code", {
+        className: "file"
+      }, "packages/ui-components/src/CInputText/CInputText.js")), _react["default"].createElement("div", {
+        className: "components"
+      }, _react["default"].createElement(_uiComponents.CButton, null), _react["default"].createElement(_uiComponents.CInputText, null))));
+    }
+  }]);
+  return App;
+}(_react.Component);
+
+var _default = App;
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJSZWFjdExvZ28iLCJZYXJuQ2F0IiwiQ29tcG9uZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQTs7SUFFTUEsRzs7Ozs7Ozs7Ozs7OzZCQUNLO0FBQ1AsYUFDSTtBQUFLLFFBQUEsU0FBUyxFQUFDO0FBQWYsU0FDRTtBQUFRLFFBQUEsU0FBUyxFQUFDO0FBQWxCLFNBQ0UsNkNBQ0U7QUFDSSxRQUFBLEdBQUcsRUFBRUMscUJBRFQ7QUFFSSxRQUFBLFNBQVMsRUFBQyxZQUZkO0FBR0ksUUFBQSxHQUFHLEVBQUM7QUFIUixRQURGLEVBTUU7QUFDSSxRQUFBLEdBQUcsRUFBRUMsbUJBRFQ7QUFFSSxRQUFBLFNBQVMsRUFBQyxVQUZkO0FBR0ksUUFBQSxHQUFHLEVBQUM7QUFIUixRQU5GLENBREYsRUFhRSw0Q0FDRTtBQUNJLFFBQUEsU0FBUyxFQUFDLFVBRGQ7QUFFSSxRQUFBLElBQUksRUFBQyw2Q0FGVDtBQUdJLFFBQUEsTUFBTSxFQUFDLFFBSFg7QUFJSSxRQUFBLEdBQUcsRUFBQztBQUpSLFNBTUUsNERBTkYsY0FERixDQWJGLEVBdUJFLHlFQXZCRixFQXdCRTtBQUFHLFFBQUEsU0FBUyxFQUFDO0FBQWIsU0FDRTtBQUFNLFFBQUEsU0FBUyxFQUFDO0FBQWhCLGlEQURGLEVBSUU7QUFBTSxRQUFBLFNBQVMsRUFBQztBQUFoQix5REFKRixFQU9FO0FBQU0sUUFBQSxTQUFTLEVBQUM7QUFBaEIsK0RBUEYsQ0F4QkYsRUFtQ0U7QUFBSyxRQUFBLFNBQVMsRUFBQztBQUFmLFNBQ0UsZ0NBQUMscUJBQUQsT0FERixFQUVFLGdDQUFDLHdCQUFELE9BRkYsQ0FuQ0YsQ0FERixDQURKO0FBNENEOzs7RUE5Q2VDLGdCOztlQWlESEgsRyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwge0NvbXBvbmVudH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IFJlYWN0TG9nbyBmcm9tICcuL1JlYWN0TG9nby5zdmcnO1xuaW1wb3J0IFlhcm5DYXQgZnJvbSAnLi9ZYXJuQ2F0LnN2Zyc7XG5pbXBvcnQgJy4vQXBwLmNzcyc7XG5cbmltcG9ydCB7Q0J1dHRvbiwgQ0lucHV0VGV4dH0gZnJvbSAnQGNvZ2VudGVtci91aS1jb21wb25lbnRzJztcblxuY2xhc3MgQXBwIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgcmVuZGVyKCkge1xuICAgIHJldHVybiAoXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiQXBwXCI+XG4gICAgICAgICAgPGhlYWRlciBjbGFzc05hbWU9XCJBcHAtaGVhZGVyXCI+XG4gICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICA8aW1nXG4gICAgICAgICAgICAgICAgICBzcmM9e1JlYWN0TG9nb31cbiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cIlJlYWN0LWxvZ29cIlxuICAgICAgICAgICAgICAgICAgYWx0PVwiUmVhY3QgTG9nb1wiXG4gICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgIDxpbWdcbiAgICAgICAgICAgICAgICAgIHNyYz17WWFybkNhdH1cbiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cIllhcm4tY2F0XCJcbiAgICAgICAgICAgICAgICAgIGFsdD1cIllhcm4gV29ya3NwYWNlcyBDYXRcIlxuICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8aDE+XG4gICAgICAgICAgICAgIDxhXG4gICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJBcHAtbGlua1wiXG4gICAgICAgICAgICAgICAgICBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL2JpamF5LXNocmVzdGhhL2NvZ2VudGVtclwiXG4gICAgICAgICAgICAgICAgICB0YXJnZXQ9XCJfYmxhbmtcIlxuICAgICAgICAgICAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiXG4gICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICA8c3Ryb25nPkNvZ2VudEVNUjwvc3Ryb25nPiBAIEdpdGh1YlxuICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICA8L2gxPlxuICAgICAgICAgICAgPGgyPkhvdCBSZWxvYWQgWW91ciBXb3Jrc3BhY2VzPC9oMj5cbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImJvZHlcIj5cbiAgICAgICAgICAgICAgPGNvZGUgY2xhc3NOYW1lPVwiZmlsZVwiPlxuICAgICAgICAgICAgICAgIHBhY2thZ2VzL2FwcHMvYWRtaW4tbW9kdWxlL3NyYy9BcHAuanNcbiAgICAgICAgICAgICAgPC9jb2RlPlxuICAgICAgICAgICAgICA8Y29kZSBjbGFzc05hbWU9XCJmaWxlXCI+XG4gICAgICAgICAgICAgICAgcGFja2FnZXMvdWktY29tcG9uZW50cy9zcmMvQ0J1dHRvbi9DQnV0dG9uLmpzXG4gICAgICAgICAgICAgIDwvY29kZT5cbiAgICAgICAgICAgICAgPGNvZGUgY2xhc3NOYW1lPVwiZmlsZVwiPlxuICAgICAgICAgICAgICAgIHBhY2thZ2VzL3VpLWNvbXBvbmVudHMvc3JjL0NJbnB1dFRleHQvQ0lucHV0VGV4dC5qc1xuICAgICAgICAgICAgICA8L2NvZGU+XG4gICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbXBvbmVudHNcIj5cbiAgICAgICAgICAgICAgPENCdXR0b24gLz5cbiAgICAgICAgICAgICAgPENJbnB1dFRleHQgLz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvaGVhZGVyPlxuICAgICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEFwcDsiXX0=

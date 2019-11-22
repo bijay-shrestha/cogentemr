@@ -1,0 +1,29 @@
+2658d4649845d4b9f19ae4aba118a08c
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+var _serializer = _interopRequireDefault(require("enzyme-to-json/serializer"));
+
+var _react = _interopRequireDefault(require("react"));
+
+_enzyme["default"].configure({
+  adapter: new _enzymeAdapterReact["default"]()
+});
+
+global.shallow = _enzyme.shallow; //making shallow global object
+
+global.render = _enzyme.render; //making render global object
+
+global.mount = _enzyme.mount; //making mount global object
+
+global.enzymeSerializer = _serializer["default"]; //making enzymeSerializer global object
+
+global.React = _react["default"];
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImplc3Quc2V0dXAuanMiXSwibmFtZXMiOlsiRW56eW1lIiwiY29uZmlndXJlIiwiYWRhcHRlciIsIkFkYXB0ZXIiLCJnbG9iYWwiLCJzaGFsbG93IiwicmVuZGVyIiwibW91bnQiLCJlbnp5bWVTZXJpYWxpemVyIiwiUmVhY3QiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOztBQUNBOztBQUNBOztBQUNBOztBQUVBQSxtQkFBT0MsU0FBUCxDQUFpQjtBQUFFQyxFQUFBQSxPQUFPLEVBQUUsSUFBSUMsOEJBQUo7QUFBWCxDQUFqQjs7QUFDQUMsTUFBTSxDQUFDQyxPQUFQLEdBQWlCQSxlQUFqQixDLENBQXlCOztBQUN6QkQsTUFBTSxDQUFDRSxNQUFQLEdBQWdCQSxjQUFoQixDLENBQXVCOztBQUN2QkYsTUFBTSxDQUFDRyxLQUFQLEdBQWVBLGFBQWYsQyxDQUFxQjs7QUFDckJILE1BQU0sQ0FBQ0ksZ0JBQVAsR0FBeUJBLHNCQUF6QixDLENBQTBDOztBQUMxQ0osTUFBTSxDQUFDSyxLQUFQLEdBQWFBLGlCQUFiIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEVuenltZSx7c2hhbGxvdyxtb3VudCxyZW5kZXJ9IGZyb20gJ2VuenltZSc7XG5pbXBvcnQgQWRhcHRlciBmcm9tICdlbnp5bWUtYWRhcHRlci1yZWFjdC0xNic7XG5pbXBvcnQgZW56eW1lU2VyaWFsaXplciBmcm9tICdlbnp5bWUtdG8tanNvbi9zZXJpYWxpemVyJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbkVuenltZS5jb25maWd1cmUoeyBhZGFwdGVyOiBuZXcgQWRhcHRlcigpIH0pO1xuZ2xvYmFsLnNoYWxsb3cgPSBzaGFsbG93Oy8vbWFraW5nIHNoYWxsb3cgZ2xvYmFsIG9iamVjdFxuZ2xvYmFsLnJlbmRlciA9IHJlbmRlcjsvL21ha2luZyByZW5kZXIgZ2xvYmFsIG9iamVjdFxuZ2xvYmFsLm1vdW50ID0gbW91bnQ7Ly9tYWtpbmcgbW91bnQgZ2xvYmFsIG9iamVjdFxuZ2xvYmFsLmVuenltZVNlcmlhbGl6ZXIgPWVuenltZVNlcmlhbGl6ZXI7Ly9tYWtpbmcgZW56eW1lU2VyaWFsaXplciBnbG9iYWwgb2JqZWN0XG5nbG9iYWwuUmVhY3Q9UmVhY3Q7Il19

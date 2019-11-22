@@ -1,0 +1,12 @@
+9b3c9b507dbf232cf11e0124f6ebb899
+'use strict';
+
+function YError(msg) {
+  this.name = 'YError';
+  this.message = msg || 'yargs error';
+  Error.captureStackTrace(this, YError);
+}
+
+YError.prototype = Object.create(Error.prototype);
+YError.prototype.constructor = YError;
+module.exports = YError;

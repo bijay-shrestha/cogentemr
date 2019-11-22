@@ -1,0 +1,14 @@
+f98bd0c3967d51a276d384d3d1d5befe
+'use strict';
+
+var util = require('util');
+
+var implementation = require('./implementation');
+
+module.exports = function getPolyfill() {
+  if (typeof util.promisify === 'function') {
+    return util.promisify;
+  }
+
+  return implementation;
+};

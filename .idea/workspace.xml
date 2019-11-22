@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="758ec35f-0e68-4687-8fa8-b469e1aa853e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__mocks__/fileMock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/config/yarn-workspaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/apps/admin/src/App.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui-components/src/CButton/__test__/CButton.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/pharmacy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/pharmacy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/storybook/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/storybook/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +50,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
     <dismissed value="$PROJECT_DIR$/packages/storybook/package.json" />
@@ -31,23 +66,28 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/apps/pharmacy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cogent-emr" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/ui-components" />
+      <recent name="$PROJECT_DIR$/packages/ui-components/src" />
       <recent name="$PROJECT_DIR$/packages/apps/admin" />
       <recent name="$PROJECT_DIR$/packages/apps" />
       <recent name="$PROJECT_DIR$/packages/ui-components/src/CInputText" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/apps/admin" />
+      <recent name="$PROJECT_DIR$/packages/ui-components/src/CButton" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/packages/apps/pharmacy" />
       <recent name="$PROJECT_DIR$/packages/ui-components" />
-      <recent name="$PROJECT_DIR$/packages/ui-components/src/CButton" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -61,6 +101,41 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Jest.should be defined">
+    <configuration default="true" type="JavaScriptTestRunnerJest">
+      <config-file value="$PROJECT_DIR$/jest.config.js" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="should be defined" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jest.config.js" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/packages/apps/admin/scripts/test.js" />
+      <test-names>
+        <test-name value="should be defined" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestScheduler.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/node_modules/@jest/core/build/TestScheduler.js" working-dir="$PROJECT_DIR$/node_modules/@jest/core/build">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.should be defined" />
+        <item itemvalue="Node.js.TestScheduler.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,7 +152,10 @@
       <workItem from="1573640011069" duration="9349000" />
       <workItem from="1573727862728" duration="3271000" />
       <workItem from="1573798106313" duration="3222000" />
-      <workItem from="1574054405528" duration="1374000" />
+      <workItem from="1574054405528" duration="16531000" />
+      <workItem from="1574247059426" duration="20778000" />
+      <workItem from="1574347925098" duration="257000" />
+      <workItem from="1574399100854" duration="2566000" />
     </task>
     <servers />
   </component>

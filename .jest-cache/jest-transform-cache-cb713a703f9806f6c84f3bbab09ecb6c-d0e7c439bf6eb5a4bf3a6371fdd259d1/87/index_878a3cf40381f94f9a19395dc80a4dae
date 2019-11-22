@@ -1,0 +1,10 @@
+aebd3440e393d73b7a390c93f3b8648b
+'use strict';
+
+const pTry = (fn, ...arguments_) => new Promise(resolve => {
+  resolve(fn(...arguments_));
+});
+
+module.exports = pTry; // TODO: remove this in the next major version
+
+module.exports.default = pTry;

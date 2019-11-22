@@ -1,0 +1,18 @@
+d37def50b81c2db041540b31bc251455
+'use strict';
+
+var define = require('define-properties');
+
+var getPolyfill = require('./polyfill');
+
+module.exports = function shimTrimRight() {
+  var polyfill = getPolyfill();
+  define(String.prototype, {
+    trimRight: polyfill
+  }, {
+    trimRight: function () {
+      return String.prototype.trimRight !== polyfill;
+    }
+  });
+  return polyfill;
+};

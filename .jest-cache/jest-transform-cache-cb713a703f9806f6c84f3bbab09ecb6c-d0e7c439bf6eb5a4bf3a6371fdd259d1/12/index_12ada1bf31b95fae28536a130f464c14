@@ -1,0 +1,45 @@
+234176ef70bbcda1149463b1aefdfe26
+/* istanbul ignore next */
+"use strict";
+
+var cov_xhlplx366 = function () {
+  var path = "/Users/bijayshrestha/Dropbox/Workspaces/cogentemr/packages/ui-components/src/CInputText/index.js";
+  var hash = "64b6afd0d3e64ab5f276913a7ec0eca58c3574c1";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/bijayshrestha/Dropbox/Workspaces/cogentemr/packages/ui-components/src/CInputText/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "64b6afd0d3e64ab5f276913a7ec0eca58c3574c1"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _CInputText["default"];
+  }
+});
+
+var
+/* istanbul ignore next */
+_CInputText = _interopRequireDefault(require("./CInputText"));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFBO0FBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQge2RlZmF1bHR9IGZyb20gJy4vQ0lucHV0VGV4dCc7Il19

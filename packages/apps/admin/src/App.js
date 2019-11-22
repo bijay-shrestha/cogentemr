@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import ReactLogo from './ReactLogo.svg';
 import YarnCat from './YarnCat.svg';
 import './App.css';
-
 import {CButton, CInputText} from '@cogentemr/ui-components';
 
 class App extends Component {
@@ -25,7 +24,7 @@ class App extends Component {
             <h1>
               <a
                   className="App-link"
-                  href="https://github.com/"
+                  href="https://github.com/bijay-shrestha/cogentemr"
                   target="_blank"
                   rel="noopener noreferrer"
               >
@@ -35,7 +34,7 @@ class App extends Component {
             <h2>Hot Reload Your Workspaces</h2>
             <p className="body">
               <code className="file">
-                packages/apps/admin-module/src/App.js
+                packages/apps/admin/src/App.js
               </code>
               <code className="file">
                 packages/ui-components/src/CButton/CButton.js

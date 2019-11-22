@@ -1,0 +1,23 @@
+f066cc02cd884d52e23d7885433c1bce
+'use strict';
+
+var GetIntrinsic = require('../GetIntrinsic');
+
+var has = require('has');
+
+var $assign = GetIntrinsic('%Object%').assign;
+
+module.exports = function assign(target, source) {
+  if ($assign) {
+    return $assign(target, source);
+  } // eslint-disable-next-line no-restricted-syntax
+
+
+  for (var key in source) {
+    if (has(source, key)) {
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+};

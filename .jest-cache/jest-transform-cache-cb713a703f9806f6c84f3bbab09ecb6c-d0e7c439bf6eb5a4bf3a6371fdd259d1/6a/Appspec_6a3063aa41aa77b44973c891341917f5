@@ -1,0 +1,9 @@
+801cc119bcc5b04d2c738614dc0df8a6
+"use strict";
+
+describe('My Test Suite', function () {
+  it('My Test Case', function () {
+    expect(true).toEqual(true);
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5zcGVjLmpzIl0sIm5hbWVzIjpbImRlc2NyaWJlIiwiaXQiLCJleHBlY3QiLCJ0b0VxdWFsIl0sIm1hcHBpbmdzIjoiOztBQUFBQSxRQUFRLENBQUMsZUFBRCxFQUFrQixZQUFNO0FBQzVCQyxFQUFBQSxFQUFFLENBQUMsY0FBRCxFQUFpQixZQUFNO0FBQ3JCQyxJQUFBQSxNQUFNLENBQUMsSUFBRCxDQUFOLENBQWFDLE9BQWIsQ0FBcUIsSUFBckI7QUFDSCxHQUZDLENBQUY7QUFHSCxDQUpPLENBQVIiLCJzb3VyY2VzQ29udGVudCI6WyJkZXNjcmliZSgnTXkgVGVzdCBTdWl0ZScsICgpID0+IHtcbiAgICBpdCgnTXkgVGVzdCBDYXNlJywgKCkgPT4ge1xuICAgICAgICBleHBlY3QodHJ1ZSkudG9FcXVhbCh0cnVlKTtcbiAgICB9KTtcbn0pOyJdfQ==

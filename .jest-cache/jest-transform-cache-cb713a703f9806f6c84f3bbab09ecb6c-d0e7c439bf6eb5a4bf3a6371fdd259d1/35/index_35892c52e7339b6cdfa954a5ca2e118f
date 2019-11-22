@@ -1,0 +1,9 @@
+54ffe3f750ae29c8eb776bac45bfa55d
+'use strict';
+
+const ansiRegex = require('ansi-regex');
+
+const stripAnsi = string => typeof string === 'string' ? string.replace(ansiRegex(), '') : string;
+
+module.exports = stripAnsi;
+module.exports.default = stripAnsi;
