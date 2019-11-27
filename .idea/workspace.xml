@@ -3,7 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="758ec35f-0e68-4687-8fa8-b469e1aa853e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___jestcoverage/block-navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/___jestcoverage/block-navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___jestcoverage/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/___jestcoverage/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___jestcoverage/sorter.js" beforeDir="false" afterPath="$PROJECT_DIR$/___jestcoverage/sorter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__mocks__/fileMock.js" beforeDir="false" afterPath="$PROJECT_DIR$/__mocks__/fileMock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/config/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/config/jest/cssTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/config/jest/cssTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/config/jest/fileTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/config/jest/fileTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/config/modules.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/config/modules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/config/paths.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/config/webpackDevServer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/config/webpackDevServer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/config/yarn-workspaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/config/yarn-workspaces.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/scripts/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/scripts/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/scripts/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/scripts/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/scripts/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/scripts/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/apps/admin/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/src/App.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/src/App.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/admin/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/admin/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/apps/pharmacy/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/apps/pharmacy/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/src/CButton/CButton.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/src/CButton/CButton.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/src/CButton/CButton.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/src/CButton/CButton.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/src/CButton/__test__/CButton.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/src/CButton/__test__/CButton.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/src/CButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/src/CButton/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/src/CInputText/CInputText.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/src/CInputText/CInputText.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/src/CInputText/CInputText.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/src/CInputText/CInputText.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui-components/src/CInputText/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui-components/src/CInputText/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prettier.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/prettier.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stories/index.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/stories/index.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +160,8 @@
       <workItem from="1574054405528" duration="16531000" />
       <workItem from="1574247059426" duration="20778000" />
       <workItem from="1574347925098" duration="257000" />
-      <workItem from="1574399100854" duration="4445000" />
+      <workItem from="1574399100854" duration="4524000" />
+      <workItem from="1574832676773" duration="731000" />
     </task>
     <servers />
   </component>

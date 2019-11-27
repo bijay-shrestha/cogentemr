@@ -9,7 +9,9 @@
     "unit": "jest",
     "admin": "yarn workspace @cogent/admin start",
     "build:all": "concurrently --kill-others-on-fail \"yarn workspace @cogent/admin build\" \"yarn workspace @cogent/pharmacy build\"",
-    "build:admin": "yarn workspace @cogent/admin build"
+    "build:admin": "yarn workspace @cogent/admin build",
+    "format": "prettier-eslint —eslint-config-path ./.eslintrc.js --write '**/*.js'",
+    "lint": "eslint . —ext .js"
   },
   "workspaces": {
     "packages": [
@@ -50,7 +52,7 @@
     "jest-resolve": "^24.8.0",
     "jest-styled-components": "^6.3.3",
     "lerna": "^3.10.7",
-    "prettier": "^1.16.1",
+    "prettier": "^1.19.1",
     "rimraf": "^3.0.0"
   },
   "dependencies": {
@@ -68,6 +70,8 @@
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.6.0",
     "jest-config": "latest",
+    "prettier-eslint": "^9.0.1",
+    "prettier-eslint-cli": "^5.0.0",
     "react-test-renderer": "^16.12.0"
   },
   "version": "1.0.0",
